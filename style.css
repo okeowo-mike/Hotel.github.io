@@ -157,7 +157,7 @@ p {
 
 /* showcase styling */
 #showcase {
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background: url("./showcase.jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -182,7 +182,7 @@ p {
 }
 
 #home-info .infoimg {
-  background: url("../img/lux_livingroom.jpg") no-repeat center center/cover;
+  background: url("./lux_livingroom.jpg") no-repeat center center/cover;
   float: right;
   width: 49%;
   min-height: 100%;
@@ -232,7 +232,7 @@ p {
 #testimonials {
   height: 100%;
   padding-top: 40px;
-  background: url("../img/lux_hallstatue.jpg") no-repeat center center/cover;
+  background: url("./lux_hallstatue.jpg") no-repeat center center/cover;
 }
 
 #testimonials .testimonials img {
