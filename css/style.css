@@ -1,279 +1,293 @@
 /* reset */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* overall styling */
-html,body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.5em;
+html,
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5em;
 }
 
 /* utility classes */
 .container {
-    max-width: 1000px;
-    padding: 0 20px;
-    overflow: auto;
-    margin: auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  overflow: auto;
+  margin: auto;
 }
 
-.py-1 {padding: 10px 0;}
-.py-2 {padding: 20px 0;}
-.py-3 {padding: 30px 0;}
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
 
-.px-1 {padding: 0 10px;}
-.px-2 {padding: 0 20px;}
-.px-3 {padding: 0 30px;}
+.px-1 {
+  padding: 0 10px;
+}
+.px-2 {
+  padding: 0 20px;
+}
+.px-3 {
+  padding: 0 30px;
+}
 
 .large-heading {
-    font-size: 40px;
-    line-height: 1.2px;
+  font-size: 40px;
+  line-height: 1.2px;
 }
 
 .clr {
-    clear: both;
+  clear: both;
 }
 
 .primary-color {
-    color: burlywood;
+  color: burlywood;
 }
 
 .lead {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 .btn {
-    display: inline-block;
-    color: white;
-    font-size: 18px;
-    background: #333;
-    padding: 9px 13px;
-    cursor: pointer;
-    border: none;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  background: #333;
+  padding: 9px 13px;
+  cursor: pointer;
+  border: none;
 }
 
 .btn-light {
-    display: inline-block;
-    color: #555;
-    font-size: 18px;
-    background: white;
-    padding: 9px 13px;
-    cursor: pointer;
-    border: none;
-    margin-top: 20px;
+  display: inline-block;
+  color: #555;
+  font-size: 18px;
+  background: white;
+  padding: 9px 13px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
 }
 
 .bg-dark {
-background: #333;
-color: white;
+  background: #333;
+  color: white;
 }
 
 .bg-primary {
-background: burlywood;
-color: #333;
+  background: burlywood;
+  color: #333;
 }
 
 .bg-light {
-background: white;
-color: #333;
+  background: white;
+  color: #333;
 }
 
 .btn-light:hover {
-    background: #333333;
-    color: burlywood;
+  background: #333333;
+  color: burlywood;
 }
 
 .btn:hover {
-    background: burlywood;
-    color: #555;
+  background: burlywood;
+  color: #555;
 }
 
 a {
-    color: #333;
-    text-decoration: 0;
+  color: #333;
+  text-decoration: 0;
 }
 
-h1, h2, h3 {
-    padding-bottom: 20px;
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
 }
 
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /* navbar styling */
 #navbar {
-    background: #333;
-    overflow: auto;
-    color: white;
+  background: #333;
+  overflow: auto;
+  color: white;
 }
 
 #navbar a {
-    color: white;
+  color: white;
 }
 
 #navbar .logo {
-    float: left;
-    padding-top: 20px;
+  float: left;
+  padding-top: 20px;
 }
 
 #navbar ul {
-     float: right;
-     list-style: none;
+  float: right;
+  list-style: none;
 }
 
 #navbar ul li {
-    float: left;
+  float: left;
 }
 
 #navbar ul li a {
-    display: block;
-    padding: 20px;
-    text-align: center;
+  display: block;
+  padding: 20px;
+  text-align: center;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-    color: burlywood;
-    background: #555;
+  color: burlywood;
+  background: #555;
 }
 
 /* showcase styling */
 #showcase {
-    background: url('../img/showcase.jpg') no-repeat center center/cover;
-    height: 600px;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
 }
 
 #showcase .showcase-content {
-    color: white;
-    text-align: center;
-    padding-top: 170px;
+  color: white;
+  text-align: center;
+  padding-top: 170px;
 }
 
 #showcase .showcase-content h2 {
-    font-size: 60px;
-    line-height: 1.1em;
-    
+  font-size: 60px;
+  line-height: 1.1em;
 }
 
 #showcase .showcase-content p {
-    
-    padding-bottom: 15px;
-    line-height: 1.5em;
+  padding-bottom: 15px;
+  line-height: 1.5em;
 }
 
 #home-info {
-    height: 450px;
+  height: 450px;
 }
 
 #home-info .infoimg {
-    background: url('../img/lux_livingroom.jpg') no-repeat center center/cover;
-    float: right;
-    width: 49%;
-    min-height: 100%;
+  background: url("../img/lux_livingroom.jpg") no-repeat center center/cover;
+  float: right;
+  width: 49%;
+  min-height: 100%;
 }
 
 #home-info .info-content {
-/* display: inline-block; */
-float: left;
-width: 50%;
-min-height: 100%;
-text-align: center;
-overflow: hidden;
-padding: 50px 50px;
-/* max-width: 850px; */
-/* margin: auto; */
+  /* display: inline-block; */
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 50px;
+  /* max-width: 850px; */
+  /* margin: auto; */
 }
 
 /* features styling */
 .box {
-    float: left;
-    text-align: center;
-    width: 33.3%;
-    padding: 50px;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  padding: 50px;
 }
 
 /* about-info */
 #about-info .info-right {
-    float: right;
-    width: 49%;
-    min-height: 100%;
+  float: right;
+  width: 49%;
+  min-height: 100%;
 }
 
 #about-info .info-right img {
-    width: 80%;
-    display: block;
-    margin: auto;
-    border-radius: 30%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 30%;
 }
 
 #about-info .info-left {
-    float: left;
-    width: 50%;
-    min-height: 100%;
+  float: left;
+  width: 50%;
+  min-height: 100%;
 }
 
 /* testimonials styling */
 #testimonials {
-    height: 100%;
-    padding-top: 40px;
-    background: url('../img/lux_hallstatue.jpg') no-repeat center center/cover;
+  height: 100%;
+  padding-top: 40px;
+  background: url("../img/lux_hallstatue.jpg") no-repeat center center/cover;
 }
 
 #testimonials .testimonials img {
-    width: 100px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 20px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
 }
 
 #testimonials .testimonials {
-    padding: 30px 0;
-    margin-top: 20px;
-    border-radius: 5px;
-    opacity: 0.9;
+  padding: 30px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  opacity: 0.9;
 }
 
 #testimonials h2 {
-    color:white;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 100px;
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 100px;
 }
 
 /* contact form */
 #contact-form h1 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 #contact-form .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #contact-form label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
-#contact-form input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px #ddd solid;
+#contact-form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
 }
 
 #contact-form textarea {
-    height: 200px;
+  height: 200px;
 }
 
-#contact-form input:focus, textarea:focus {
-    outline: none;
-    border-color: burlywood;
+#contact-form input:focus,
+textarea:focus {
+  outline: none;
+  border-color: burlywood;
 }
 
 /* footer styling */
 #main-footer {
-    text-align: center;
-    padding: 9px;
+  text-align: center;
+  padding: 9px;
 }
-
